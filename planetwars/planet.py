@@ -90,4 +90,3 @@ class Planets(TypedSetBase):
         """Returns the combined growth rate of all Planet objects in this set"""
         return sum(p.growth_rate for p in self)
 
-    
